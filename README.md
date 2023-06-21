@@ -28,8 +28,6 @@ CodeGrow 프로젝트는 웹 개발자들을 위한 온라인 학습 플랫폼�
 -질문과 답변 게시판: 사용자들은 질문과 답변 게시판을 통해 서로 도움을 주고 받을 수 있으며, 지식을 공유할 수 있습니다.  
 -공지사항 게시판: 운영자는 공지사항 게시판을 통해 학습자들에게 중요한 정보와 업데이트 사항을 공지할 수 있습니다.  
 
-<h3 align="left">사용된 언어와 도구</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> </p>
 
 <h3>설치 및 실행 <h3>  
   
