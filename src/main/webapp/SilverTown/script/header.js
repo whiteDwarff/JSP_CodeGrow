@@ -1,0 +1,44 @@
+/*
+	작성자 : 강문호
+	기능 : header의 서브메뉴를 클릭하면 display 속성을 변경시킨다.
+	Git : https://github.com/whiteDwarff
+*/
+
+const navImg = document.querySelectorAll('.sub-gnb img'),
+	slideWrap = document.querySelectorAll('.slide-wrap'),
+	header = document.querySelector('header');
+section = document.querySelectorAll('section'),
+	form = document.getElementsByTagName('form')[0],
+	selectInput = document.getElementById('search-input');
+let isSlideState = true;
+
+for (let i = 0; i < navImg.length; i++) {
+	navImg[i].addEventListener('click', () => {
+
+		for (let item of slideWrap) item.style.display = 'none';
+
+		if (isSlideState) {
+			slideWrap[i].style.display = 'block';
+			isSlideState = false;
+			for (let item of section) item.style.filter = 'blur(7px)'
+			header.style.backgroundColor = '#fff';
+		} else {
+			slideWrap[i].style.display = 'none';
+			for (let item of section) item.style.filter = 'none'
+			header.style.backgroundColor = 'rgb(244, 244, 244, 0.5)';
+			isSlideState = true;
+		}
+	})
+}
+
+
+// input submit handler
+form.addEventListener('submit', e => {
+	if (selectInput.value == '') {
+		e.preventDefault();
+		alert('검색어를 입력해주세요.')
+	} else if (selectInput.value.length < 2) {
+		e.preventDefault();
+		alert('검색어는 두글자 이상 입력해주세요.')
+	}
+});
