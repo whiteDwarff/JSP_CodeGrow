@@ -112,4 +112,4 @@ CodeGrow 프로젝트는 웹 개발자들을 위한 온라인 학습 플랫폼�
 
 <br><br><br>
    
-## 프로젝트에 관한 문의 사항은 munstarrrrr@gmail.com 혹은  로 보내주세요!
+## 프로젝트에 관한 문의 사항은 munstarrrrr@gmail.com로 보내주세요!
