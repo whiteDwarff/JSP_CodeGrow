@@ -79,7 +79,7 @@ CodeGrow 프로젝트는 웹 개발자들을 위한 온라인 학습 플랫폼�
 
 <br>
 
-## 5. Member
+** 5. Member**<br>
 >*회원의 정보가 저장된 테이블*<br>
 
 | Column | Roles | Key |
