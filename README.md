@@ -3,8 +3,7 @@
 <br>
  <div align="center">
   <img src="https://img.shields.io/badge/Java-3DDC84?style=flat&logo=java&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat&logo=Apache Tomcat&logoColor=black"/>
-
+   <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat&logo=Apache Tomcat&logoColor=black"/>
   <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white"/>
   <img src="https://img.shields.io/badge/html-E34F26?style=flat&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"/>
@@ -15,9 +14,43 @@
 <br>
 안녕하세요 👋,저희는 SilverTown 팀입니다.<br>
 🔭 저희 프로젝트의 이름은 CodeGrow 입니다.<br>
-
 CodeGrow 프로젝트는 웹 개발자들을 위한 온라인 학습 플랫폼입니다.  <br>
 이 프로젝트는 웹 프로그래밍 과목의 과제로 시작되었으며, 웹 프로그래밍의 다양한 분야를 학습하고 실습할 수 있는 환경을 제공합니다.<br>
+
+## 🛠️ Tech
+**1. JSP**<br>
+>*MVC1 사용*<br>
+
+**2. MariaDB**<br>
+
+**3. Tomcat**<br>
+
+
+## 💿 Database
+**1. Board**<br> 
+>*질문 및 공지사항이 저장된 테이블*<br>
+
+| Column | Roles | Key |
+| --- | --- | --- |
+| id | 게시글의 고유 값 | Primary |
+| title | 게시글의 제목 | . | 
+| content | 게시글의 내용 | . |
+| author_id | 게시글 작성자 | Forign |
+| created_at | 작성일 | . |
+
+<br>
+
+**2. Comment**<br>
+>*댓글 테이블*<br>
+
+| Column | Roles | Key |
+| --- | --- | --- |
+| id | 댓글의 고유 값 | Primary |
+| content | 댓글의 내용 | . |
+| cretaed_at | 작성일 | . |
+| post_id | 게시글의 번호 | Forign |
+| author_id | 댓글 작성자 | Forign |
+
 
 <h3>주요 기능</h3>  
  - 회원가입 및 로그인: 사용자는 회원가입을 통해 CodeGrow에 가입하고, 로그인하여 자신의 계정으로 접속할 수 있습니다.  <br>
