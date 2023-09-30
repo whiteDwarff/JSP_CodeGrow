@@ -51,6 +51,49 @@ CodeGrow 프로젝트는 웹 개발자들을 위한 온라인 학습 플랫폼�
 | post_id | 게시글의 번호 | Forign |
 | author_id | 댓글 작성자 | Forign |
 
+<br>
+
+**3. Video Category**<br>
+>*비디오의 카테고리 테이블*<br>
+
+| Column | Roles | Key |
+| --- | --- | --- |
+| id | 카테고리의 고유 값 | Primary |
+| name | 카테고리 이름 | . |
+| cretaed_at | 등록일 | . |
+
+<br>
+
+**4. Video**<br>
+>*동영상의 정보가 저장된 테이블*<br>
+
+| Column | Roles | Key |
+| --- | --- | --- |
+| id | 동영상의 고유 값 | Primary |
+| title | 동영상의 제목 | . |
+| description | 동영상의 내용 | . |
+| url | 동영상의 링크 | . |
+| cretaed_at | 작성일 | . |
+| uploader_id | 작성자의 번호 | Forign |
+| category_id | 카테고리 번호 | Forign |
+
+<br>
+
+**5. Member**<br>
+>*회원의 정보가 저장된 테이블*<br>
+
+| Column | Roles | Key |
+| --- | --- | --- |
+| id | 회원의 고유 값 | Primary |
+| name | 회원의 이름 | . |
+| email | 회원의 이메일(아이디) | . |
+| phone_number | 회원의 전화번호 | . |
+| password | 회원의 비밀번호 | . |
+| cretaed_at | 가입일 | . |
+
+
+
+
 
 <h3>주요 기능</h3>  
  - 회원가입 및 로그인: 사용자는 회원가입을 통해 CodeGrow에 가입하고, 로그인하여 자신의 계정으로 접속할 수 있습니다.  <br>
