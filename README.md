@@ -23,8 +23,8 @@ CodeGrow 프로젝트는 웹 개발자들을 위한 온라인 학습 플랫폼�
 **1. JSP**<br>
 **2. MariaDB**<br>
 **3. Tomcat**<br>
-**3. HTML / CSS**<br>
-**3. JavaScript**<br>
+**4. HTML / CSS**<br>
+**5. JavaScript**<br>
 
 <br><br><br>
 
